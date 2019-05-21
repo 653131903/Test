@@ -3,9 +3,9 @@ package com.component.ls.util;
 import android.app.Application;
 
 public class Utils {
-    public static Application application;
+    public static Application mApplication;
 
-    public void init(Application application) {
-        this.application = application;
+    public static void init(Application application) {
+        mApplication = application;
     }
 }
